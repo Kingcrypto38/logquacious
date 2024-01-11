@@ -43,7 +43,7 @@
     "bulma-tooltip": "^2.0.2",
     "flatpickr": "^4.6.3",
     "he": "^1.2.0",
-    "inferno": "^7.3.3",
+    "inferno": "^8.2.3",
     "moment": "^2.24.0",
     "randomcolor": "^0.5.4"
   },
