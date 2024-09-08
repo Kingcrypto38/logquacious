@@ -19,7 +19,7 @@ WORKDIR /lq
 RUN go build -mod=vendor -o lq-startup ./...
 
 # Final image
-FROM nginx:alpine
+FROM nginx:1-alpine3.20
 
 COPY --from=0 /lq/dist/ /lq
 COPY --from=1 /lq/lq-startup /
